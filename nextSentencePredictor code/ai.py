@@ -22,8 +22,8 @@ if input_text:
     # Generate 3 next sentence predictions (max 50 tokens)
     outputs = generator(
         input_text,
-        max_length=50,              # Total length (input + generated text)
-        num_return_sequences=3,     # Generate 3 variations
+        max_length=50,              # Total length (input + generated text) for real
+        num_return_sequences=3,     # Generate 3 variations in one go
         do_sample=True,             # Enables randomness/creativity
         temperature=0.7             # Controls randomness (0.7 = balanced)
     )

@@ -9,7 +9,7 @@ set_seed(42)  # Ensures consistent output for the same input
 # Streamlit Web App Title
 st.title("Next Sentence Prediction using Generative AI")
 
-# Instructions
+# Instructions to be followed
 st.write("This app uses GPT-2 to generate the next possible sentence(s) based on your input.")
 
 # Input box for the user to enter a sentence

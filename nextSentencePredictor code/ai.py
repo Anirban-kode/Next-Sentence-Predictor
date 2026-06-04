@@ -9,7 +9,7 @@ set_seed(42)  # Ensures consistent output for the same input
 # Streamlit Web App Title
 st.title("Next Sentence Prediction using Generative AI")
 
-# Instructions to be followed
+# Instructions
 st.write("This app uses GPT-2 to generate the next possible sentence(s) based on your input.")
 
 # Input box for the user to enter a sentence
@@ -22,7 +22,7 @@ if input_text:
     # Generate 3 next sentence predictions (max 50 tokens)
     outputs = generator(
         input_text,
-        max_length=50,              # Total length (input + generated text) for real
+        max_length=50,              # Total length (input + generated text)
         num_return_sequences=3,     # Generate 3 variations in one go
         do_sample=True,             # Enables randomness/creativity
         temperature=0.7             # Controls randomness (0.7 = balanced)

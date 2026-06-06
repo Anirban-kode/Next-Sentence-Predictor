@@ -32,3 +32,25 @@ if input_text:
     for i, output in enumerate(outputs):
         generated = output['generated_text']
         st.write(f"**{i+1}.** {generated}")
+
+#External source for HTML CSS part:
+#<!DOCTYPE html>
+#<html>
+#<head>
+#    <title>Sports Page</title>
+#</head>
+#<body>
+
+#    <h1>Sports & Athletes</h1>
+
+#    <p>Sports help build discipline, teamwork, and fitness.</p>
+
+#    <h2>Popular Sports</h2>
+#    <ul>
+#        <li>Football</li>
+#        <li>Cricket</li>
+#        <li>Basketball</li>
+#    </ul>
+
+#</body>
+#</html>

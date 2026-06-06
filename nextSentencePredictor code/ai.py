@@ -40,17 +40,3 @@ if input_text:
 #    <title>Sports Page</title>
 #</head>
 #<body>
-
-#    <h1>Sports & Athletes</h1>
-
-#    <p>Sports help build discipline, teamwork, and fitness.</p>
-
-#    <h2>Popular Sports</h2>
-#    <ul>
-#        <li>Football</li>
-#        <li>Cricket</li>
-#        <li>Basketball</li>
-#    </ul>
-
-#</body>
-#</html>
